@@ -1,0 +1,78 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "Asset",
+        "possibleTypes": [
+          {
+            "name": "TaskAsset"
+          },
+          {
+            "name": "CollectionAsset"
+          },
+          {
+            "name": "AudioAsset"
+          },
+          {
+            "name": "UsageRightsSetAsset"
+          },
+          {
+            "name": "BasicAsset"
+          },
+          {
+            "name": "ImageAsset"
+          },
+          {
+            "name": "VideoAsset"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "UserNotification",
+        "possibleTypes": [
+          {
+            "name": "UserBasicNotification"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "ActionProgressEvent",
+        "possibleTypes": [
+          {
+            "name": "DefaultActionEvent"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "ActionStateEvent",
+        "possibleTypes": [
+          {
+            "name": "DefaultActionEvent"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "AssetFile",
+        "possibleTypes": [
+          {
+            "name": "AudioAssetFile"
+          },
+          {
+            "name": "BasicAssetFile"
+          },
+          {
+            "name": "ImageAssetFile"
+          },
+          {
+            "name": "VideoAssetFile"
+          }
+        ]
+      }
+    ]
+  }
+}
